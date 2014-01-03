@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+/* editor_content */
+.editor_content{
+	height: 500px;
+	width: 1016px;
+	overflow: hidden;
+}
+#title_input{
+	width: 800px;
+	border:none;
+	border-color: #fff;
+	outline:none;
+	height:30px; 
+	line-height:30px;
+	font-size:22px;
+	color: rgb(59, 89, 152);
+	padding-top: 20px;
+}
+.category_select{
+	color: rgb(59, 89, 152);
+}
+/* end of editor_content */
+
+/* label */
+.labels_div{
+	display: inline-block;
+	margin: 10px 20px;
+	width: 960px;
+	padding: 10px;
+}
+.label_span{
+	display: inline-block;
+	background-color: #fff;
+	-webkit-box-shadow: 2px 3px 10px 3px rgba(59,89,152,0.75);
+	-moz-box-shadow: 2px 3px 10px 3px rgba(59,89,152,0.75);
+	box-shadow: 2px 3px 10px 3px rgba(59,89,152,0.75);
+	padding: 4px;
+	margin: 8px;
+}
+/* end of label */
