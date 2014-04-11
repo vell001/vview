@@ -4,5 +4,3 @@
 *.jar
 *.war
 *.ear
-vview_db.sql
-source_data.sql
