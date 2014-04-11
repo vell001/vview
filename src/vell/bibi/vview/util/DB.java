@@ -13,14 +13,13 @@ public class DB {
 
     // URL指向要访问的数据库名scutcs
     private static String url = "jdbc:mysql://localhost/vview";
-//    private static String url = "jdbc:mysql://10.0.2.219/vview";
 
     // MySQL配置时的用户名
     private static String user = "root"; 
 //    private static String user = "uogzpQ27hERCh";
 
     // MySQL配置时的密码
-    private static String password = "Vettel001";
+    private static String password = "";
 //    private static String password = "pw4NVJNK6T2Zs";
     
 	public static Connection getConn() {

@@ -6,7 +6,7 @@ public class Setting {
 	private static final int post_max_num = 10;
 	private static final int post_excerpt_num = 100;
 	private static final String admin_email = "vell001@qq.com";
-	private static final String des_key = "bibi!@#$%vell001";
+	private static final String des_key = "";
 	private static final String v_keywords = "V&View(维视),V&View,维视,vview,vell001,VellBibi";
 	private static final String v_description = "V&View(维视),一群屌丝的世界观。。。主要是IT方面的感想、分享";
 	private static final String notice = 
@@ -16,9 +16,9 @@ public class Setting {
 	private static final String basepath = "http://vview.vell001.ml/";
 //	private static final String basepath = "http://localhost:8080/VView/";
 	
-	private static final String mail_from = "vellbibi@qq.com";
-	private static final String mail_user = "vellbibi@qq.com";
-	private static final String mail_password = "sebastianvettel";
+	private static final String mail_from = "";
+	private static final String mail_user = "";
+	private static final String mail_password = "";
 	
 	public static Properties getEmailProps() {
 		Properties email_props = System.getProperties();
